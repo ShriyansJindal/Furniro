@@ -1,0 +1,36 @@
+.hero{
+    /* border: 2px solid black; */
+    /* height: calc(100vh - 90px); */
+    height: 85vh;
+    background-image: url("../hero-img.png");
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 60px;
+}
+.box{
+    background-color: #FFF3E3;
+    width: 550px;
+    height: 350px;
+    padding: 35px 25px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+.box h4{
+    margin: 0%;
+}
+.box h1{
+    margin: 0%;
+    width: 350px;
+    font-size: 50px;
+    color: #B88E2F;
+}
+.discover-btn{
+    background-color: #B88E2F;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
